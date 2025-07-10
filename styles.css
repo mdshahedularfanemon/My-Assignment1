@@ -52,7 +52,7 @@ nav .cta:hover {
   background: url('images/hero-bg.png') no-repeat center center;
   background-size: cover;
   color: rgb(2, 1, 1);
-  padding: 100px 20px;
+  padding: 100px 30px;
   text-align: center;
 }
 
@@ -178,7 +178,6 @@ nav .cta:hover {
   color: #555;
 }
 
-/* Testimonials */
 
 .h2{
 
