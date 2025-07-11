@@ -1,5 +1,5 @@
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f5f7ff;
+  background-color: #ebecf0;
   color: #1f1f1f;
 }
 
@@ -19,12 +19,13 @@ header, footer, section {
 
 
 nav {
-  background: url('images/nav-bg.png') no-repeat center center;
+  background: url('images./nav-bg.png') no-repeat center center;
   background-size: cover;
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: #5854547e;
 }
 
 nav .logo {
@@ -66,9 +67,9 @@ nav .cta:hover {
 .see-action {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
   padding: 80px 64px;
-  background-color: #f6f8ff; /* light background to match your screenshot */
+  background-color: #f6f8ff; 
 }
  
 .my-image {
@@ -150,6 +151,7 @@ nav .cta:hover {
 .productivity{
   background-color: #e0e7ff;
   max-width: 1800px;
+  margin: 100px;
   border-radius: 24px;
   
 }
@@ -205,7 +207,6 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   color: #333;
 }
 
-/* Form Section */
 .form-section {
   background: white;
   padding: 60px 20px; 
@@ -247,7 +248,7 @@ form {
   color: white;
   cursor: pointer;
   font-weight: 600;
-  transition: background 0.3s;
+  
 }
 
 .form-section button:hover {
